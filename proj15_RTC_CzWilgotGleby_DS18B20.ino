@@ -1,7 +1,3 @@
-//Program wykorzystujący zegar czasu rzeczywsitego z PCF8563 I2C, służący do ustawienia daty, godziny i czasu alarmu.
-//Alarm wywołuje przerwanie zewnętrzne na pinie PD2 (INT0) arduino nano, którego reprezentacją jest sprawdzenie wigotności gleby.
-
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include <string.h>
@@ -789,7 +785,6 @@ void InternalInterupts_init()
   TCCR1B |= (1<<CS12);
   TCCR1B |= (1<<CS10);
 
-  //porównywacz (co 500ms)-> 16000000/1024 = 15625 -> 15625*0,5s = 7812
   OCR1A = 15625;
 
   //włączenie przerwań
