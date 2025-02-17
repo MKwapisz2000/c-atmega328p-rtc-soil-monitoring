@@ -3,9 +3,13 @@
 **Project Description - English**
 
 This project is a soil moisture and temperature monitoring system based on ATmega328P. It integrates:
+
 RTC PCF8563 (I2C) for timekeeping and alarms,
+
 DS18B20 (One-Wire) for temperature measurement,
+
 Soil moisture sensor (ADC) for monitoring soil hydration levels.
+
 The system uses an RGB LED (PWM) to indicate soil moisture levels, and INT0 external interrupt for alarm handling.
 
 Features:
