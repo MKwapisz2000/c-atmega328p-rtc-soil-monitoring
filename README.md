@@ -12,6 +12,7 @@ Soil moisture sensor (ADC) for monitoring soil hydration levels.
 
 The system uses an RGB LED (PWM) to indicate soil moisture levels, and INT0 external interrupt for alarm handling.
 
+
 Features:
 
 - RTC PCF8563 – read, set, and synchronize time.
@@ -61,10 +62,15 @@ Usage Instructions:
 **Opis projektu - Polski**
 
 Ten projekt to system monitorowania wilgotności gleby i temperatury przy użyciu mikrokontrolera ATmega328P, który komunikuje się z:
+
 RTC PCF8563 (I2C) do obsługi zegara i alarmów,
+
 DS18B20 (One-Wire) do pomiaru temperatury,
+
 Czujnikiem wilgotności gleby (ADC) do monitorowania poziomu nawodnienia.
+
 Dodatkowo, wartości wilgotności są prezentowane poprzez kolor diody RGB (PWM), a alarmy są sygnalizowane przerwaniem INT0.
+
 
 Funkcjonalność:
 
