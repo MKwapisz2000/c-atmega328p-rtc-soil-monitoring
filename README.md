@@ -86,7 +86,7 @@ Funkcjonalność:
 
 - USART – monitorowanie danych w terminalu szeregowym.
 
-- Wymagania sprzętowe:
+Wymagania sprzętowe:
 
 - ATmega328P (np. Arduino Nano lub standalone AVR)
 
